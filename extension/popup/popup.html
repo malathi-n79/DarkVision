@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DarkVision</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo-container">
+          <img src="../icons/icon-128.png" alt="DarkVision" class="icon" />
+          <h1>DarkVision</h1>
+        </div>
+      </header>
+      <main>
+        <div class="card">
+          <div class="instructions">Choose Your Theme</div>
+          <div class="options">
+            <div class="mode-option">
+              <input
+                type="radio"
+                id="modeDisabled"
+                name="displayMode"
+                value="0"
+                checked
+              />
+              <label for="modeDisabled">
+                <span class="radio-custom"></span>
+                <span class="label-text">Default</span>
+              </label>
+            </div>
+            <div class="mode-option">
+              <input type="radio" id="modeDark" name="displayMode" value="1" />
+              <label for="modeDark">
+                <span class="radio-custom"></span>
+                <span class="label-text">Dark Mode</span>
+              </label>
+            </div>
+            <div class="mode-option">
+              <input
+                type="radio"
+                id="modeGrayscale"
+                name="displayMode"
+                value="3"
+              />
+              <label for="modeGrayscale">
+                <span class="radio-custom"></span>
+                <span class="label-text">Grayscale</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card scheduler-card">
+          <div class="instructions">Auto Scheduler</div>
+          <div class="scheduler-toggle">
+            <label class="switch">
+              <input type="checkbox" id="schedulerToggle">
+              <span class="slider round"></span>
+            </label>
+            <span class="toggle-label">Enable Auto Scheduler</span>
+          </div>
+          
+          <div id="schedulerSettings" class="scheduler-settings">
+            <div class="time-setting">
+              <label>Activate Dark Mode:</label>
+              <div class="time-options">
+                <div class="time-option">
+                  <input type="radio" id="sunsetOption" name="activationType" value="sunset" checked>
+                  <label for="sunsetOption">At Sunset</label>
+                </div>
+                <div class="time-option">
+                  <input type="radio" id="customActivationOption" name="activationType" value="custom">
+                  <label for="customActivationOption">Custom Time</label>
+                </div>
+                <input type="time" id="customActivationTime" class="time-input" disabled>
+              </div>
+            </div>
+            
+            <div class="time-setting">
+              <label>Deactivate Dark Mode:</label>
+              <div class="time-options">
+                <div class="time-option">
+                  <input type="radio" id="sunriseOption" name="deactivationType" value="sunrise" checked>
+                  <label for="sunriseOption">At Sunrise</label>
+                </div>
+                <div class="time-option">
+                  <input type="radio" id="customDeactivationOption" name="deactivationType" value="custom">
+                  <label for="customDeactivationOption">Custom Time</label>
+                </div>
+                <input type="time" id="customDeactivationTime" class="time-input" disabled>
+              </div>
+            </div>
+            
+            <button id="saveScheduler" class="save-button">Save Schedule</button>
+          </div>
+        </div>
+      </main> 
+    </div>
+    <script src="/popup/popup.js"></script>
+  </body>
+</html>

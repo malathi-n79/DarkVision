@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode Enabler</title>
+    <script
+      src="https://www.googletagmanager.com/gtag/js?id=G-Y2Y45JXYBM"
+      data-nscript="lazyOnload"
+      async
+    ></script>
+    <script data-nscript="lazyOnload">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-Y2Y45JXYBM", {
+        page_path: window.location.pathname,
+      });
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/website/main.js"></script>
+  </body>
+</html>
