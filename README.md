@@ -22,12 +22,15 @@ This extension applies dark mode and various filters to websites that do not nat
 ## Screenshots
 
 1. **Default Mode**
+
    ![Default Mode](screenshots/image1.png)
 
-2. **Dark Mode**
+3. **Dark Mode**
+ 
    ![Dark Mode](screenshots/image2.png)
 
-3. **Auto Scheduling**
+5. **Auto Scheduling**
+ 
    ![Auto Scheduling](screenshots/image3.png)
 
 ## How to Use
