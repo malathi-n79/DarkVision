@@ -13,12 +13,12 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/codesandtags/dark-mode-extension/blob/main/LICENSE"
+      "url": "https://github.com/malathi-n79/DarkVision/blob/main/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandtags/dark-mode-extension.git"
+    "url": "git+https://github.com/malathi-n79/DarkVision.git"
   },
   "keywords": [
     "chrome-extension",
@@ -32,5 +32,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.0"
   },
-  "homepage": "https://codesandtags.github.io/dark-mode-extension/"
+  "homepage": "https://github.com/malathi-n79/DarkVision"
 }

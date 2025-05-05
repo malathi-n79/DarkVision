@@ -8,6 +8,7 @@ DarkVision is an open-source Chrome extension designed to enable Dark Mode acros
 
 This extension applies dark mode and various filters to websites that do not natively support it.
 
+**[View Demo](https://example.com/demo)**
 
 ## Features
 
@@ -18,6 +19,16 @@ This extension applies dark mode and various filters to websites that do not nat
 - Lightweight and easy to use.
 - Auto Scheduler function: Set NightShift to automatically activate at sunset or your preferred time for seamless transitions.
 
+## Screenshots
+
+1. **Default Mode**
+   ![Default Mode](screenshots/image1.png)
+
+2. **Dark Mode**
+   ![Dark Mode](screenshots/image2.png)
+
+3. **Auto Scheduling**
+   ![Auto Scheduling](screenshots/image3.png)
 
 ## How to Use
 
@@ -48,7 +59,7 @@ DarkVision is an independent project and is not affiliated with any company or w
 
 ## License
 
-DarkVision is released under the [MIT License](https://opensource.org/licenses/MIT), allowing free use, modification, and distribution.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
