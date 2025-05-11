@@ -8,7 +8,7 @@ DarkVision is an open-source Chrome extension designed to enable Dark Mode acros
 
 This extension applies dark mode and various filters to websites that do not natively support it.
 
-**[View Demo](https://example.com/demo)**
+🌐 Website: 🔗✨ [Click to view the website demo ➡️🌍](https://dark-vision-website.vercel.app/)
 
 ## Features
 
@@ -63,6 +63,8 @@ DarkVision is an independent project and is not affiliated with any company or w
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+🌐 Website: 🔗✨ [Click to view the website demo ➡️🌍](https://dark-vision-website.vercel.app/)
 
 ## Contact
 
